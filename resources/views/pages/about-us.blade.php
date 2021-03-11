@@ -1,5 +1,7 @@
 @extends('application')
 
+@section('title', 'About us | Hello City')
+
 @section('content')
     <p>Built with &hearts; by Tonux</p>
 
