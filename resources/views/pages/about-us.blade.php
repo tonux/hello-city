@@ -1,6 +1,6 @@
 @extends('application')
 
-@section('title', 'About us | ' . env('APP_NAME')))
+@section('title', 'About us | ' .  config('app.name') )
 
 @section('content')
     <p>Built with &hearts; by Tonux</p>
